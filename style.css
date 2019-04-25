@@ -1,0 +1,28 @@
+
+html,
+body {
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    background-color: #f5fbff;
+    /* text-align: center; */
+}
+
+.card {
+    margin: 20px auto;
+    float: none;
+    padding: 20px;
+    width: 700px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 #0003;
+    background-color: white;
+}
+
+.icon {
+    margin-right: 10px;
+    font-size: 30px;
+    color: #3c82ef;
+}
+
+a {
+    color: #3c82ef;
+}
