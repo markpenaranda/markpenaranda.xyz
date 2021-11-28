@@ -3,18 +3,21 @@ html,
 body {
     font-family: 'Lato', sans-serif;
     height: 100%;
-    background-color: #f5fbff;
-    /* text-align: center; */
+    background-color: #0e1217;
+    color: #e2e2e2;
+}
+
+.container {
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .card {
-    margin: 20px auto;
+    
     float: none;
     padding: 20px;
     width: 700px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px 0 #0003;
-    background-color: white;
 }
 
 .icon {
