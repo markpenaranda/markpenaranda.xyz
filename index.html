@@ -7,9 +7,9 @@
         <meta name="description" content="Angular, Spring, Kotlin, Axon CQRS Developer in Berlin Germany" />
     </head>
     <body>
-	<div class="container">
-	   <a href="https://app.daily.dev/markpenaranda"><img src="https://api.daily.dev/devcards/3b1c45f9d17e40559c885a358d3d9d76.png?r=obr" width="400" alt="Mark Penaranda's Dev Card"/></a>
-        
+	<div id="container" class="container">
+<!--	   <a href="https://app.daily.dev/markpenaranda"><img src="https://api.daily.dev/devcards/3b1c45f9d17e40559c885a358d3d9d76.png?r=obr" width="400" alt="Mark Penaranda's Dev Card"/></a>
+    --!>    
 
        <div class="scrollable-feed">
             <div class="card">
@@ -40,6 +40,24 @@
 	</div>
 
    
+    <script src="three.r119.min.js"></script>
+    <script src="vanta.dots.min.js"></script>
+    <script>
+    VANTA.DOTS({
+    el: "#container",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: 0x9b9b9b,
+    color2: 0x282525,
+    size: 2.60,
+    spacing: 82.00
+    })
+    </script>
 
     </body>
 </html>
