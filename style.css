@@ -1,10 +1,9 @@
-
-html,
 body {
     font-family: 'Lato', sans-serif;
-    height: 100%;
-    background-color: #0e1217;
+
+    background: url(bg.svg) center center / cover no-repeat fixed;
     color: #e2e2e2;
+    background-position: center center;
 }
 
 .container {
